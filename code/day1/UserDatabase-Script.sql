@@ -18,3 +18,5 @@ VALUES ('Sherlock', 'Holmes', '2002');
 INSERT INTO `UserDatabase`.`Employee` (`firstName`, `lastName`, `employeeNumber`) 
 VALUES ('Master', 'Yoda', '3003');
 
+use userdatabase;
+select * from Employee
